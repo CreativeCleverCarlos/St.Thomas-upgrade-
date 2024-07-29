@@ -1,0 +1,145 @@
+---
+title: 'Pixel Perfect Websites | Code Stitch Web Designs | Denver, CO'
+description: 'Meta description for the page'
+preloadImg: '/assets/images/landing.jpg'
+permalink: '/'
+tags: 'sitemap' # Sitemap will use all pages in content/, due to content.json. As index.html is not included in content/ we need to manually add the sitemap tag to this page (only).
+eleventyNavigation:
+  key: Home
+  order: 100
+---
+
+{% extends "layouts/base.html" %}
+
+{% block head %}
+    <link rel="stylesheet" href="/assets/css/local.css"/>
+    <link rel="stylesheet" href="/assets/css/critical.css"/>
+
+    <!-- Script for Netlify Identity -->
+    <script defer src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+    <script defer>
+        if (window.netlifyIdentity) {
+            window
+                .netlifyIdentity
+                .on('init', (user) => {
+                    if (!user) {
+                        window
+                            .netlifyIdentity
+                            .on('login', () => {
+                                document.location.href = '/admin/';
+                            });
+                    }
+                });
+        }
+    </script>
+{% endblock %}
+
+{% block body %}
+
+<!-- ============================================ -->
+<!--                    Hero                      -->
+<!-- ============================================ -->
+
+<section id="hero-1426">
+    <div class="cs-container">
+        <div class="cs-content">
+            
+            <h1 class="cs-title">WELCOME TO ST.THOMAS CHURCH OF CHRIST</h1>
+            <p class="cs-text">
+                We were all once lost, and now we are found. We find comfort in Jesus Christ.
+            </p>
+            <div class="cs-button-group">
+                <a href="" class="cs-button-solid cs-button1">Join Community</a>
+                <a href="" class="cs-button-solid cs-button2">Donate Now</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Background Image -->
+    <picture class="cs-background">
+        <source media="(max-width: 600px)" src="assets/images/bible_picture.jpg">
+        <source media="(min-width: 601px)" src="assets/images/bible_picture.jpg">
+        <img loading="lazy" decoding="async" src="assets/images/bible_picture.jpg" alt="field" width="1920" height="1200" aria-hidden="true">
+    </picture>
+</section>
+                                
+<!-- ============================================ -->
+<!--                  Services                    -->
+<!-- ============================================ -->
+
+<section id="services-1626">
+    <div class="cs-container">
+        <div class="cs-content">
+            <div class="cs-flex">
+                <h2 class="cs-title">Who we are, and what our purpose is</h2>
+            </div>
+            <p class="cs-text">
+                We are a multi-generational, multi-cultural church with a passion for living out and spreading the gospel from London Ontario. We make our best efforts to love God and each other.
+                We believe that the Bible is the inspired word of God and our guide for daily living. We appreciate the forgiveness and purpose that comes through Jesus Christ and are eager to share this good news with others.
+            </p>
+        </div>                  
+        <ul class="cs-card-group">
+            <li class="cs-item">
+                <a href="" class="cs-link">
+                    <picture class="cs-picture">
+                        <!--Mobile Image-->
+                        <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/nuclear.jpg">
+                        <!--Tablet and above Image-->
+                        <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/nuclear.jpg">
+                        <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/nuclear.jpg" alt="room" width="413" height="420">
+                    </picture>
+                    <h3 class="cs-h3">Our time of worship</h3>
+                    <p class="cs-item-text">
+                        Our weekly service begins at 10:00am Sunday, starting with bible studies and then 11:15am for worship.
+                    </p>
+                    <span class="cs-fake-link">
+                        Learn more
+                        <img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/gold-chevron-right.svg" alt="" width="20" height="20" loading="lazy" decoding="async" aria-hidden="true">
+                    </span>
+                </a>
+            </li>
+            <li class="cs-item">
+                <a href="" class="cs-link">
+                    <picture class="cs-picture">
+                        <!--Mobile Image-->
+                        <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/worker5.jpg">
+                        <!--Tablet and above Image-->
+                        <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/worker5.jpg">
+                        <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/worker5.jpg" alt="room" width="413" height="420">
+                    </picture>
+                    <h3 class="cs-h3">Bible studies</h3>
+                    <p class="cs-item-text">
+                       We weekly meetup in St.Thomas and London for a midweek bible study. 
+                    </p>
+                    <span class="cs-fake-link">
+                        Learn more
+                        <img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/gold-chevron-right.svg" alt="" width="20" height="20" loading="lazy" decoding="async" aria-hidden="true">
+                    </span>
+                </a>
+            </li>
+            <li class="cs-item">
+                <a href="" class="cs-link">
+                    <picture class="cs-picture">
+                        <!--Mobile Image-->
+                        <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/containers.jpg">
+                        <!--Tablet and above Image-->
+                        <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/containers.jpg">
+                        <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/containers.jpg" alt="room" width="413" height="420">
+                    </picture>
+                    <h3 class="cs-h3">About us</h3>
+                    <p class="cs-item-text">
+                        We believe that God is love, God is good, and God is omnipotent. He is omniscient, omnipresent and that he is the ultimate source of authority in heaven and on earth
+                    </p>
+                    <span class="cs-fake-link">
+                        Learn more
+                        <img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/gold-chevron-right.svg" alt="" width="20" height="20" loading="lazy" decoding="async" aria-hidden="true">
+                    </span>
+                </a>
+            </li>
+        </ul>
+    </div>
+</section>
+             
+{% include 'components/cta.html' %}
+
+{% endblock %}
