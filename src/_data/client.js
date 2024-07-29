@@ -1,15 +1,11 @@
 module.exports = {
-    "name": "Code Stitch Web Designs",
-    "email": "help@codestitch.app",
-    "phoneForTel": "555-779-4407",
-    "phoneFormatted": "(555) 779-4407",
+    "name": "St.Thomas Church Of Christ",
+    "email": "st.thomaschurchoc@gmail.com",
     "address": {
-        "lineOne": "First Address Line",
-        "lineTwo": "Second Address Line",
-        "city": "Denver",
-        "state": "CO",
-        "zip": "80206",
-        "mapLink": "https://goo.gl/maps/UAQn4vuGDiwv7DV39"
+        "lineOne": "60 S Edgeware re",
+        "city": "St.Thomas",
+        "Province": "ON",
+        "mapLink": "https://maps.app.goo.gl/Pb5sVhTNjy1qQoXY9"
     },
     "socials": {
         "facebook": "https://www.facebook.com/",
