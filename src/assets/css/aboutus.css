@@ -9,7 +9,7 @@
       /* removing the side paddings to allow the cards to fit the whole page width */
       padding-right: 0;
       padding-left: 0;
-      background-color: #1a1a1a;
+      background-color: #fff;
       position: relative;
     }
     #services-1771 .cs-container {
