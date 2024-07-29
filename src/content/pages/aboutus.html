@@ -1,0 +1,146 @@
+---
+title: 'Page title for <title> and OG tags'
+description: 'Description for <meta> description and OG tags'
+preloadImg: '/assets/images/imagename.format'
+permalink: '/aboutus'
+eleventyNavigation:
+    key: aboutus
+    order: 1000
+    parent: Optional - Put another page's "key" here to create a dropdown
+    hideOnMobile: Optional - set to "true" to hide on devices from, and below, 1023px
+    hideOnDesktop: Optional - set to "true" to hide on devices above, and including, 1024px
+---
+
+{% extends "layouts/base.html" %}
+
+{% block head %}
+<link rel="stylesheet" href="/assets/css/aboutus.css">{% endblock %}
+
+{% block body %}
+    <!-- ============================================ -->
+    <!--                    LANDING                   -->
+    <!-- ============================================ -->
+
+    <section id="int-hero">
+        <h1 id="home-h">Aboooout Us</h1>
+        <picture>
+            <source media="(max-width: 600px)" srcset="/assets/images/cabinets2-m.jpg">
+            <source media="(min-width: 601px)" srcset="/assets/images/cabinets2.jpg">
+            <img aria-hidden="true" decoding="async" src="/assets/images/cabinets2.jpg" alt="kitchen cabinets" loading="eager" width="2500" height="1667">
+        </picture>
+
+    </section>
+<!-- ============================================ -->
+<!--                    Services                  -->
+<!-- ============================================ -->
+
+<section id="services-1771">
+    <div class="cs-container">
+        <div class="cs-content">
+            <div class="cs-flex-group">
+                <span class="cs-topper">Our Services</span>
+                <h2 class="cs-title">We Trained You To Gain</h2>
+            </div>
+            <p class="cs-text">
+                Workouts shift your body from periods of aerobic activity to periods of the best training tools for developing a strong anaerobic activity. When your body is in and “aerobic mode,” your body is using oxygen.
+            </p>
+        </div>
+        <ul class="cs-card-group">
+            <li class="cs-item">
+                <picture class="cs-picture">
+                    <source media="(max-width: 600px)"
+                            srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/gym-service-1.png">
+                    <source media="(min-width: 601px)"
+                            srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/gym-service-1.png">
+                    <img decoding="async"
+                            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/gym-service-1.png"
+                            alt="finance" width="413" height="374" aria-hidden="true" loading="lazy">
+                </picture>
+                <div class="cs-details">
+                    <span class="cs-tag">Workout</span>
+                    <h3 class="cs-h3">Aerobics</h3>
+                    <p class="cs-item-text">
+                        Rev up your fitness journey with heart-pumping cardio indoor cycling. Experience a dynamic workout that blends intensity, endurance, and fun all within the comfort. 
+                    </p>
+                    <a href="/" class="cs-link">
+                        Join Us Today
+                        <img class="cs-arrow" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/chevron-right-white.svg" alt="icon" width="20" height="20" aria-hidden="true">
+                    </a>
+                </div>
+            </li>
+            <li class="cs-item">
+                <picture class="cs-picture">
+                    <source media="(max-width: 600px)"
+                            srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/gym-service-4.png">
+                    <source media="(min-width: 601px)"
+                            srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/gym-service-4.png">
+                    <img decoding="async"
+                            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/gym-service-4.png"
+                            alt="finance" width="413" height="374" aria-hidden="true" loading="lazy">
+                </picture>
+                <div class="cs-details">
+                    <span class="cs-tag">Cardio</span>
+                    <h3 class="cs-h3">Indoor Cycling</h3>
+                    <p class="cs-item-text">
+                        Rev up your fitness journey with heart-pumping cardio indoor cycling. Experience a dynamic workout that blends intensity, endurance, and fun all within the comfort.
+                    </p>
+                    <a href="/" class="cs-link">
+                        Join Us Today
+                        <img class="cs-arrow" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/chevron-right-white.svg" alt="icon" width="20" height="20" aria-hidden="true">
+                    </a>
+                </div>
+            </li>
+            <li class="cs-item">
+                <picture class="cs-picture">
+                    <source media="(max-width: 600px)"
+                            srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/gym-service-2.png">
+                    <source media="(min-width: 601px)"
+                            srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/gym-service-2.png">
+                    <img decoding="async"
+                            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/gym-service-2.png"
+                            alt="finance" width="413" height="374" aria-hidden="true" loading="lazy">
+                </picture>
+                <div class="cs-details">
+                    <span class="cs-tag">Strength</span>
+                    <h3 class="cs-h3">Weight Lifting</h3>
+                    <p class="cs-item-text">
+                        Rev up your fitness journey with heart-pumping cardio indoor cycling. Experience a dynamic workout that blends intensity, endurance, and fun all within the comfort.
+                    </p>
+                    <a href="/" class="cs-link">
+                        Join Us Today
+                        <img class="cs-arrow" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/chevron-right-white.svg" alt="icon" width="20" height="20" aria-hidden="true">
+                    </a>
+                </div>
+            </li>
+            <li class="cs-item">
+                <picture class="cs-picture">
+                    <source media="(max-width: 600px)"
+                            srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/gym-service-5.png">
+                    <source media="(min-width: 601px)"
+                            srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/gym-service-5.png">
+                    <img decoding="async"
+                            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/gym-service-5.png"
+                            alt="finance" width="413" height="374" aria-hidden="true" loading="lazy">
+                </picture>
+                <div class="cs-details">
+                    <span class="cs-tag">Flexibility</span>
+                    <h3 class="cs-h3">Yoga & Pilates</h3>
+                    <p class="cs-item-text">
+                        Rev up your fitness journey with heart-pumping cardio indoor cycling. Experience a dynamic workout that blends intensity, endurance, and fun all within the comfort.
+                    </p>
+                    <a href="/" class="cs-link">
+                        Join Us Today
+                        <img class="cs-arrow" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/chevron-right-white.svg" alt="icon" width="20" height="20" aria-hidden="true">
+                    </a>
+                </div>
+            </li>
+        </ul>
+    </div>
+</section>
+                                
+                                
+                                
+
+    {% include 'components/cta.html' %}
+
+{% endblock %}
