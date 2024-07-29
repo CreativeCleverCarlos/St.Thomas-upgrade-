@@ -3,6 +3,10 @@
 <---        Core Styles         -->
 <--- -------------------------- -*/
 /* CodeStitch Root and Helpers */
+a{
+  text-decoration: none;
+}
+
 @media only screen and (min-width: 0rem) {
   :root {
     /* Add these styles to your global stylesheet, which is used across all site pages. You only need to do this once. All elements in the library derive their variables and base styles from this central sheet, simplifying site-wide edits. For instance, if you want to modify how your h2's appear across the site, you just update it once in the global styles, and the changes apply everywhere. */
@@ -79,7 +83,7 @@
     text-align: center;
   }
   .cs-button-solid:hover {
-    color: #fff;
+    color: #000;
   }
   .cs-button-solid:hover:before {
     width: 100%;
@@ -143,7 +147,8 @@
   h5,
   h6 {
     margin: 0;
-    color: var(--headerColor);
+    color: var( --bodyTextColorWhite);
+  
   }
   p,
   li,
@@ -826,7 +831,6 @@ html {
     /* prevents padding from adding to the width */
     box-sizing: border-box;
     padding: 0 1.5rem;
-    color: #fff;
     background-color: var(--secondary);
     display: inline-block;
     position: relative;
@@ -836,7 +840,7 @@ html {
     content: "";
     width: 0%;
     height: 100%;
-    background: #000;
+    background: #fff;
     opacity: 1;
     position: absolute;
     top: 0;
