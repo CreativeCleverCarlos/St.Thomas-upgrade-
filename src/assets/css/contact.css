@@ -88,6 +88,13 @@
     border: none;
     width: 100%;
   }
+  #cs-contact #cs-contact #cs-form .cs-button-solid {
+    border: black 1px solid;
+    width: 100%;
+  }
+  #cs-contact #cs-contact .cs-button-solid:hover {
+    color: #1a1a1a;
+  }
   #cs-contact .cs-right-section {
     position: relative;
     display: flex;
