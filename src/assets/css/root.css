@@ -6,7 +6,7 @@
 @media only screen and (min-width: 0rem) {
   :root {
     /* Add these styles to your global stylesheet, which is used across all site pages. You only need to do this once. All elements in the library derive their variables and base styles from this central sheet, simplifying site-wide edits. For instance, if you want to modify how your h2's appear across the site, you just update it once in the global styles, and the changes apply everywhere. */
-    --primary: #66CBE0;
+    --primary: #39a5f0;
     --primaryLight: #A8EAF8;
     --secondary: #ffba43;
     --secondaryLight: #ffba43;
@@ -836,7 +836,7 @@ html {
     content: "";
     width: 0%;
     height: 100%;
-    background: #000;
+    background: #fff;
     opacity: 1;
     position: absolute;
     top: 0;
@@ -847,6 +847,11 @@ html {
   #cta-1693 .cs-button-solid:hover:before {
     width: 100%;
   }
+
+  #cta-1693 .cs-button-solid:hover {
+    color: #1a1a1a;
+  }
+
   #cta-1693 .cs-wrapper {
     width: 100%;
     max-width: 120rem;
