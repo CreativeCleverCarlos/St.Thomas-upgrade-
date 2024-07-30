@@ -674,6 +674,7 @@ html {
     /* prevents padding from adding to the width */
     box-sizing: border-box;
     transition: color 0.3s;
+    border-radius: 0.5rem;
   }
   #cs-navigation .cs-button-solid:before {
     content: "";
@@ -692,6 +693,7 @@ html {
   }
   #cs-navigation .cs-button-solid:hover:before {
     width: 100%;
+    border-radius: 0.25rem;
   }
   #cs-navigation .cs-nav-button {
     line-height: 2.875rem;
@@ -834,6 +836,7 @@ html {
     display: inline-block;
     position: relative;
     z-index: 1;
+    border-radius: 0.5rem;
   }
   #cta-1693 .cs-button-solid:before {
     content: "";
@@ -846,6 +849,7 @@ html {
     left: 0;
     z-index: -1;
     transition: width 0.3s;
+    border-radius: 0.25rem;
   }
   #cta-1693 .cs-button-solid:hover:before {
     width: 100%;
