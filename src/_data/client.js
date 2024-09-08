@@ -2,7 +2,7 @@ module.exports = {
     "name": "St.Thomas Church Of Christ",
     "email": "st.thomaschurchoc@gmail.com",
     "address": {
-        "lineOne": "60 S Edgeware re",
+        "lineOne": "60 S Edgeware rd",
         "city": "St.Thomas",
         "Province": "ON",
         "mapLink": "https://maps.app.goo.gl/Pb5sVhTNjy1qQoXY9"
